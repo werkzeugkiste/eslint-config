@@ -54,7 +54,7 @@ If you want to use TypeScript, that's fine:
 
 ```json
 {
-  "extends": ["@werkzeugkiste", "@werkzeugkiste/eslint-config/typeyscript"]
+  "extends": ["@werkzeugkiste", "@werkzeugkiste/eslint-config/typescript"]
 }
 ```
 
