@@ -16,6 +16,7 @@ module.exports = {
         'react/no-unused-prop-types': [2, { skipShapeProps: true }],
         'react/no-string-refs': 2,
         'react/no-typos': 2,
+        'react/no-unknown-property': 2,
         'react/sort-comp': 2,
         'react/jsx-first-prop-new-line': [1, 'multiline'],
         'react/jsx-wrap-multilines': 2,
