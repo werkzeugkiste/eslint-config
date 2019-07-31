@@ -1,0 +1,40 @@
+{
+  "name": "@werkzeugkiste/eslint-config",
+  "version": "1.0.0-alpha.0",
+  "publishConfig": {
+    "access": "public",
+    "tag": "alpha"
+  },
+  "description": "",
+  "repository": "git@github.com:werkzeugkiste/eslint-config.git",
+  "keywords": [
+    "eslint",
+    "config"
+  ],
+  "author": "Manuel Bieh <info@manuelbieh.de> (https://www.manuelbieh.de)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/werkzeugkiste/eslint-config/issues"
+  },
+  "homepage": "https://github.com/werkzeugkiste/eslint-config#readme",
+  "peerDependencies": {
+    "@typescript-eslint/eslint-plugin": "^1.7.0",
+    "@typescript-eslint/parser": "^1.7.0",
+    "babel-eslint": "^10.0.1",
+    "confusing-browser-globals": "^1.0.7",
+    "eslint": "^5.16.0",
+    "eslint-config-prettier": "^4.3.0",
+    "eslint-import-resolver-typescript": "^1.1.1",
+    "eslint-plugin-babel": "^5.3.0",
+    "eslint-plugin-import": "^2.17.3",
+    "eslint-plugin-prettier": "^3.1.0",
+    "eslint-plugin-react": "^7.13.0",
+    "eslint-plugin-react-hooks": "^1.6.0",
+    "eslint-plugin-security": "^1.4.0",
+    "eslint-plugin-unicorn": "^9.1.0",
+    "prettier": "^1.18.2"
+  },
+  "devDependencies": {
+    "@werkzeugkiste/prettier-config": "^1.0.0-beta.0"
+  }
+}
