@@ -26,7 +26,7 @@ https://github.com/eslint/eslint/issues/2518
 https://github.com/eslint/eslint/issues/3458#issuecomment-133071869
 -->
 
-Then add an `.eslintrc.json` file to the root of your project before running the eslint command, with the following content
+Then add an `.eslintrc.json` file with the following content to the root of your project:
 
 ```json
 {
