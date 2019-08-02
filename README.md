@@ -1,4 +1,4 @@
-# @werkzeugkiste/eslint-config <img src="https://raw.githubusercontent.com/werkzeugkiste/eslint-config/master/eslint.svg?sanitize=true" height="32" align="right">
+# @werkzeugkiste/eslint-config <img src="https://raw.githubusercontent.com/werkzeugkiste/eslint-config/master/eslint.svg?sanitize=true" height="40" align="right">
 
 A shared [ESLint](https://eslint.org) config for [@werkzeugkiste](https://www.github.com/werkzeugkiste). Rules are carefully selected to be as restrictive as necessary but no more. This config aims to reduce bugs and cause as much consistency as possible in a codebase while keeping the code readable even for not-so-experienced developers.
 
