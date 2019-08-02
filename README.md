@@ -1,4 +1,4 @@
-# @werkzeugkiste/eslint-config
+# @werkzeugkiste/eslint-config <img src="https://raw.githubusercontent.com/werkzeugkiste/eslint-config/master/eslint.svg?sanitize=true" height="32" align="right">
 
 A shared [ESLint](https://eslint.org) config for [@werkzeugkiste](https://www.github.com/werkzeugkiste). Rules are carefully selected to be as restrictive as necessary but no more. This config aims to reduce bugs and cause as much consistency as possible in a codebase while keeping the code readable even for not-so-experienced developers.
 
@@ -30,7 +30,7 @@ Then add an `.eslintrc.json` file to the root of your project before running the
 
 ```json
 {
-  "extends": ["@werkzeugkiste"]
+    "extends": ["@werkzeugkiste"]
 }
 ```
 
@@ -38,7 +38,7 @@ Optionally you can also add linting for React/JSX:
 
 ```json
 {
-  "extends": ["@werkzeugkiste", "@werkzeugkiste/eslint-config/react"]
+    "extends": ["@werkzeugkiste", "@werkzeugkiste/eslint-config/react"]
 }
 ```
 
@@ -46,7 +46,7 @@ Add linting for Node.js:
 
 ```json
 {
-  "extends": ["@werkzeugkiste", "@werkzeugkiste/eslint-config/node"]
+    "extends": ["@werkzeugkiste", "@werkzeugkiste/eslint-config/node"]
 }
 ```
 
@@ -54,7 +54,7 @@ If you want to use TypeScript, that's fine:
 
 ```json
 {
-  "extends": ["@werkzeugkiste", "@werkzeugkiste/eslint-config/typescript"]
+    "extends": ["@werkzeugkiste", "@werkzeugkiste/eslint-config/typescript"]
 }
 ```
 
