@@ -30,7 +30,7 @@ Then add an `.eslintrc.json` file with the following content to the root of your
 
 ```json
 {
-    "extends": ["@werkzeugkiste"]
+  "extends": ["@werkzeugkiste"]
 }
 ```
 
@@ -38,7 +38,7 @@ Optionally you can also add linting for React/JSX:
 
 ```json
 {
-    "extends": ["@werkzeugkiste", "@werkzeugkiste/eslint-config/react"]
+  "extends": ["@werkzeugkiste", "@werkzeugkiste/eslint-config/react"]
 }
 ```
 
@@ -46,7 +46,7 @@ Add linting for Node.js:
 
 ```json
 {
-    "extends": ["@werkzeugkiste", "@werkzeugkiste/eslint-config/node"]
+  "extends": ["@werkzeugkiste", "@werkzeugkiste/eslint-config/node"]
 }
 ```
 
@@ -54,7 +54,7 @@ If you want to use TypeScript, that's fine:
 
 ```json
 {
-    "extends": ["@werkzeugkiste", "@werkzeugkiste/eslint-config/typescript"]
+  "extends": ["@werkzeugkiste", "@werkzeugkiste/eslint-config/typescript"]
 }
 ```
 
@@ -65,7 +65,7 @@ Or use them all at once:
   "extends": [
     "@werkzeugkiste",
     "@werkzeugkiste/eslint-config/react",
-    "@werkzeugkiste/eslint-config/node"
+    "@werkzeugkiste/eslint-config/node",
     "@werkzeugkiste/eslint-config/typescript"
   ]
 }

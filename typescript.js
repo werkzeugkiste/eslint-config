@@ -32,7 +32,9 @@ module.exports = {
                 'no-useless-constructor': 0,
                 'no-unused-vars': 0,
                 'no-undef': 0,
-                '@typescript-eslint/no-angle-bracket-type-assertion': 1,
+                // TODO: this was deprecated in favor of @typescript-eslint/consistent-type-assertions
+                // Find out which one is the best option or if this should be used at all.
+                // '@typescript-eslint/no-angle-bracket-type-assertion': 1,
                 '@typescript-eslint/no-array-constructor': 1,
                 '@typescript-eslint/no-namespace': 2,
                 '@typescript-eslint/no-unused-vars': [
