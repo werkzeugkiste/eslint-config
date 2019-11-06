@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@werkzeugkiste/prettier-config@^1.0.0-beta.0":
-  version "1.0.0-beta.0"
-  resolved "https://registry.yarnpkg.com/@werkzeugkiste/prettier-config/-/prettier-config-1.0.0-beta.0.tgz#c6a6a54d2b38f7d2444a0ca4d5c84f7bef94e42f"
-  integrity sha512-HZMhxjw5bbFy6QQfUI8it6VrdQ1P05d1FdF1nsBgtV/o6SnkWO9ut/xjKokd45ixNLtjZS4nbN6RayiMKzx77w==
+"@werkzeugkiste/prettier-config@^1.0.1":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@werkzeugkiste/prettier-config/-/prettier-config-1.0.1.tgz#9964672980311ae7013a6cd71f9244d820b2368b"
+  integrity sha512-IEfi/NV06d7EsRkqsnB8+1it8KEr+bJmXQwh1ngiPMsKr/9yHZOdjfrFTPxbxPP14Y3Ce25KSrkZ5ME/5L2TzA==
 
 prettier@^1.18.2:
   version "1.18.2"
