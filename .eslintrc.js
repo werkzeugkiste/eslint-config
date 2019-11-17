@@ -83,6 +83,8 @@ module.exports = {
 
         // Plugin specific options:
         'babel/no-invalid-this': 2,
+        // Does not recognize module.exports as default, so it's basically useless today
+        'import/default': 0,
         'import/order': [
             2,
             { groups: ['builtin', 'external', 'internal', 'parent', 'sibling', 'index'] },
@@ -103,7 +105,9 @@ module.exports = {
         'unicorn/prefer-text-content': 2,
         'unicorn/import-index': 2,
         'unicorn/throw-new-error': 2,
+
         // The following rules are unnecessary and potentially harmful if prettier is used:
+        'semi': 0,
         // 'semi': [2, 'always'],
         // 'key-spacing': 2,
         // 'keyword-spacing': 2,
