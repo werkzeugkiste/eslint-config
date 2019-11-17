@@ -34,16 +34,6 @@ module.exports = {
         'brace-style': [2, '1tbs'],
         'camelcase': [2, { properties: 'never' }],
         'curly': [2, 'all'],
-        'comma-dangle': [
-            2,
-            {
-                arrays: 'always-multiline',
-                imports: 'always-multiline',
-                exports: 'always-multiline',
-                objects: 'always-multiline',
-                functions: 'ignore',
-            },
-        ],
         'dot-location': [1, 'property'],
         'dot-notation': 2,
         'eol-last': 2,
@@ -121,5 +111,15 @@ module.exports = {
         // 'no-floating-decimal': 2,
         // 'no-multi-spaces': 2,
         // 'space-in-parens': [2, 'never'],
+        // 'comma-dangle': [
+        //     2,
+        //     {
+        //         arrays: 'always-multiline',
+        //         imports: 'always-multiline',
+        //         exports: 'always-multiline',
+        //         objects: 'always-multiline',
+        //         functions: 'ignore',
+        //     },
+        // ],
     },
 };
