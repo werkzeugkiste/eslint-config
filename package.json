@@ -2,8 +2,7 @@
   "name": "@werkzeugkiste/eslint-config",
   "version": "1.0.1",
   "publishConfig": {
-    "access": "public",
-    "tag": "alpha"
+    "access": "public"
   },
   "description": "",
   "repository": "git@github.com:werkzeugkiste/eslint-config.git",
