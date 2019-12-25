@@ -1,0 +1,42 @@
+{
+  "verifyConditions": [
+    "@semantic-release/npm",
+    "@semantic-release/git",
+    "@semantic-release/github"
+  ],
+  "branch": "master",
+  "prepare": [
+    "@semantic-release/npm",
+    {
+      "path": "@semantic-release/git",
+      "assets": [
+        "package.json"
+      ],
+      "message": "Release <%= nextRelease.version %> - <%= new Date().toISOString() %> [skip ci]"
+    }
+  ],
+  "analyzeCommits": {
+    "path": "semantic-release-conventional-commits",
+    "majorTypes": [
+      "major",
+      "breaking",
+      "MAJOR",
+      "BREAKING"
+    ],
+    "minorTypes": [
+      "feat",
+      "feature",
+      "minor"
+    ],
+    "patchTypes": [
+      "fix",
+      "fixed",
+      "hotfix",
+      "bugfix",
+      "chore",
+      "patch"
+    ],
+    "mergePattern": "/^Merge pull request #(\\d+) from (.*)$/",
+    "mergeCorrespondence": "['id', 'source']"
+  }
+}
