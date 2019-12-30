@@ -23,6 +23,8 @@ module.exports = {
                 'ci',
                 'style',
                 'test',
+                'release',
+                'build',
             ],
         ],
     },
