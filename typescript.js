@@ -37,13 +37,6 @@ module.exports = {
                 // '@typescript-eslint/no-angle-bracket-type-assertion': 1,
                 '@typescript-eslint/no-array-constructor': 1,
                 '@typescript-eslint/no-namespace': 2,
-                '@typescript-eslint/no-unused-vars': [
-                    1,
-                    {
-                        args: 'none',
-                        ignoreRestSiblings: true,
-                    },
-                ],
                 '@typescript-eslint/no-useless-constructor': 1,
                 // these two cause trouble with type imports. disable until these are resolved:
                 // https://github.com/alexgorbatchev/eslint-import-resolver-typescript/issues/17
