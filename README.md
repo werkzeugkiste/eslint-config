@@ -26,7 +26,18 @@ https://github.com/eslint/eslint/issues/2518
 https://github.com/eslint/eslint/issues/3458#issuecomment-133071869
 -->
 
-Then add an `.eslintrc.json` file with the following content to the root of your project:
+## Usage
+
+If you want to use this config as base in any of your projects you need to create a `.eslintrc.json` file that extends this config. If you do not have an ESLint config yet, the easiest way is to do that automatically by running the following command in the root folder of your project (where your package.json is):
+
+```bash
+# create .eslintrc.json config file:
+npx @werkzeugkiste/eslint-config
+```
+
+This command creates a new `.eslintrc.json` file for you and adds linting for JavaScript, React/JSX, Node and TypeScript.
+
+If you already have an ESLint config or if you prefer the manual way, add the following content to your config file:
 
 ```json
 {
