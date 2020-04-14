@@ -1,3 +1,11 @@
+### [1.1.1](https://github.com/werkzeugkiste/eslint-config/compare/v1.1.0...v1.1.1) (2020-04-14)
+
+
+### 💉 Improvements
+
+* add log output to init script ([8057ddd](https://github.com/werkzeugkiste/eslint-config/commit/8057ddda52e0b2f4aaac256270a2a84de76eac0d))
+* update all deps to their most recent version ([0f2423f](https://github.com/werkzeugkiste/eslint-config/commit/0f2423f9637887037f817c9896e74431d8ddeef5))
+
 ## [1.1.0](https://github.com/werkzeugkiste/eslint-config/compare/v1.0.6...v1.1.0) (2020-01-19)
 
 ### 💉 Improvements
