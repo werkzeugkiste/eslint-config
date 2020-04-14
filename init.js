@@ -86,6 +86,9 @@ try {
     );
 
     console.log('ESLint config written successfully! ✅');
+    console.log(
+        'Please run `npx install-peerdeps --dev @werkzeugkiste/eslint-config` to install required dependencies.'
+    );
     process.exit(0);
 } catch (_error) {
     console.error(
