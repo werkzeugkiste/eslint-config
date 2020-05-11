@@ -1,3 +1,14 @@
+## [2.0.0](https://github.com/werkzeugkiste/eslint-config/compare/v1.1.1...v2.0.0) (2020-05-11)
+
+
+### ⚠ BREAKING CHANGES
+
+* upgrade all dependencies (including ESLint 7.0.0)
+
+### 🧩 Features
+
+* upgrade all dependencies (including ESLint 7.0.0) ([336c80a](https://github.com/werkzeugkiste/eslint-config/commit/336c80adcfbe49e4aab7e47d70e115400212dccb))
+
 ### [1.1.1](https://github.com/werkzeugkiste/eslint-config/compare/v1.1.0...v1.1.1) (2020-04-14)
 
 
