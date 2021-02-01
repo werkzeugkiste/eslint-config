@@ -1,3 +1,10 @@
+### [2.0.1](https://github.com/werkzeugkiste/eslint-config/compare/v2.0.0...v2.0.1) (2021-02-01)
+
+
+### 💉 Improvements
+
+* update dependencies ([70aad76](https://github.com/werkzeugkiste/eslint-config/commit/70aad76423c234b82671dec2645b72493ced71ef))
+
 ## [2.0.0](https://github.com/werkzeugkiste/eslint-config/compare/v1.1.1...v2.0.0) (2020-05-11)
 
 
